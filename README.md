@@ -136,3 +136,15 @@ GET	/tours	Get all tour packages
 POST	/tours	Add a new tour package
 GET	/tours/{id}	Get a tour package by ID
 GET	/tours/search	Search tour packages by location
+
+Postman collection:
+1. Get All Tour Details:
+  ![image alt](https://github.com/RahulLodhi12/Tour-Package-Management-System---Assignment/blob/main/get%20all%20tour%20details.png?raw=true)
+
+2. Add a Tour Detail:
+  ![image alt](https://github.com/RahulLodhi12/Tour-Package-Management-System---Assignment/blob/main/add%20a%20tour.png?raw=true)
+
+3. Search Tour Details By Location:
+  ![image alt](https://github.com/RahulLodhi12/Tour-Package-Management-System---Assignment/blob/main/search%20a%20tour%20by%20location.png?raw=true)
+  
+   
