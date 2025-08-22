@@ -66,11 +66,17 @@ Example Request (POSTMAN form-data):
 
 POST /api/tours
 image=https://example.com/tour.jpg
+
 discountInPercentage=20%
+
 title=Goa Beach Escape
+
 description=Relax at Goa beaches with water sports
+
 duration=5Days/4Nights
+
 actualPrice=$500
+
 discountedPrice=$400
 
 
@@ -138,9 +144,13 @@ Response (200 OK):
 Summary of Endpoints:
 Method	Endpoint	Description
 GET	/	Welcome message
+
 GET	/tours	Get all tour packages
+
 POST	/tours	Add a new tour package
+
 GET	/tours/{id}	Get a tour package by ID
+
 GET	/tours/search	Search tour packages by location
 
 Postman collection:
