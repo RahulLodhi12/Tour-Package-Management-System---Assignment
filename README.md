@@ -49,11 +49,17 @@ Description: Add a new tour package.
 Request Parameters (form-data or query):
 
 image (string) → Image URL
+
 discountInPercentage (string) → e.g. "20%"
+
 title (string) → Tour name
+
 description (string) → Tour details
+
 duration (string) → e.g. "5Days/4Nights"
+
 actualPrice (string) → e.g. "$1200"
+
 discountedPrice (string) → e.g. "$1000"
 
 Example Request (POSTMAN form-data):
